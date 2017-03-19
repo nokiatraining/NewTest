@@ -6,7 +6,7 @@ package com.mycompany.app;
  */
 public class App 
 {
-	private APP(){
+	private void APP(){
 		System.err("Construct");
 	}
     public static void main( String[] args )
