@@ -7,7 +7,7 @@ import java.lang.*;
 public class App 
 {
 	private void APP(){
-		System.err.prinln("Construct");
+		System.err.println("Construct");
 	}
     public static void main( String[] args )
     {
