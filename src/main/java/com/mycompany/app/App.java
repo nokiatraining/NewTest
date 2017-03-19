@@ -7,13 +7,13 @@ import java.lang.*;
 public class App 
 {
 	private void APP(){
-		System.err("Construct");
+		System.err.prinln("Construct");
 	}
     public static void main( String[] args )
     {
-        System.err( "Hello World!" );
+        System.err.println( "Hello World!" );
 
-        System.err("A NullPointerException is a drag...");
+        System.err.println("A NullPointerException is a drag...");
         //Object myObject = null;
         /**
          * Checker prevents this from compiling...
@@ -27,6 +27,6 @@ public class App
          *
          * http://checkerframework.org
          */
-        System.err("... but thankfully, Checker has our back: http://checkerframework.org");
+        System.err.println("... but thankfully, Checker has our back: http://checkerframework.org");
     }
 }
